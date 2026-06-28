@@ -10,10 +10,10 @@ Aplikasi asli ini berbasis format `.CHM` (Compiled HTML Help), yang di dalamnya 
 
 ## Rencana & Konsep yang Diinginkan
 
-**Modernisasi UI/UX**
+### Modernisasi UI/UX
 Mengubah tampilan jadul aplikasi menjadi desain web yang bersih, responsif (nyaman dibuka di HP dan laptop), dan modern.
 
-**Mempertahankan Preservasi Data**
+### Mempertahankan Preservasi Data
 Saya ingin tetap mempertahankan struktur navigasi, susunan teks, tata letak bab/halaman asli, serta fungsionalitas indeks yang ada pada versi CHM-nya agar esensi aplikasi aslinya tidak hilang.
 
 ## Kendala yang Saya Hadapi
