@@ -1,0 +1,112 @@
+body {
+	scrollbar-face-color: #587EA5;
+	scrollbar-highlight-color: #ffffff;
+	scrollbar-shadow-color: #E8ECF4;
+	scrollbar-3dlight-color: #E0E7F1;
+	scrollbar-arrow-color:  #E8ECF4;
+	scrollbar-track-color: #EFF2F8; 
+	scrollbar-darkshadow-color: #015E8C;
+}
+/* General font families for common tags  */
+font,th,td,p { font-family: Verdana, Arial, Helvetica, sans-serif }
+a:link,a:active,a:visited { text-decoration: none; color : #000066; }
+a:hover		{ text-decoration: none; color : #ff9900; }
+hr	{ height: 0px; border: solid #E0E7F1 0px; border-top-width: 1px;}
+
+/* This is the border line & background colour round the entire page */
+.bodyline	{ background-color: #ffffff; border: 1px #015E8C solid; }
+
+/* This is the outline round the main forum tables */
+.forumline	{ background-color: "#CAD7E3"; border: 1px #7BA5BD solid; }
+
+/* Bullets in the index 
+li:two,li:three,li:four,li:five,li:six { text-indent:-18pt } */
+li.one { list-style-image: url(img/bullet/blue.gif) }
+li.two { list-style-image: url(img/bullet/green.gif); }
+li.three { list-style-image: url(img/bullet/orange.gif) }
+li.four { list-style-image: url(img/bullet/purple.gif) }
+li.five { list-style-image: url(img/bullet/red.gif) }
+li.six { list-style-image: url(img/bullet/yellow.gif) }
+
+}
+/* Main table cell colours and backgrounds */
+/* td.row1	{ background-color: #EFF2F8; } */
+td.row1 { background-color: #ffffff; }
+/* td.row2	{ background-color: #E8ECF4; } */
+td.row2	{ background-color: #EFF2F8; }
+td.row3	{ background-color: #E0E7F1; }
+
+/*
+  This is for the table cell above the Topics, Post & Last posts on the index.php page
+  By default this is the fading out gradiated silver background.
+  However, you could replace this with a bitmap specific for each forum
+*/
+td.rowpic {
+		background-color: #ffffff;
+		background-image: url(img/cellpic2.gif);
+		background-repeat: repeat-y;
+}
+
+/* Header cells - the blue and silver gradient backgrounds */
+th	{
+	color: #FFFFFF; font-size: 11px; font-weight : bold;
+	background-color: #587EA5; height: 25px;
+	background-image: url(img/cellpic3.gif);
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom {
+			background-image: url(img/cellpic1.gif);
+			background-color:#E0E7F1; border: #ffffff; border-style: solid; height: 28px;
+}
+
+/*
+  Setting additional nice inner borders for the main table cells.
+  The names indicate which sides the border will be on.
+  Don't worry if you don't understand this, just ignore it :-)
+*/
+td.cat,td.catHead,td.catBottom {
+	height: 29px;
+	border-width: 0px 0px 0px 0px;
+}
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR {
+	font-weight: bold; border: #ffffff; border-style: solid; height: 28px;
+}
+td.row3Right,td.spaceRow {
+	background-color: #E0E7F1; border: #ffffff; border-style: solid;
+}
+
+th.thHead,td.catHead { font-size: 11px; border-width: 1px 1px 0px 1px; }
+th.thSides,td.catSides,td.spaceRow	 { border-width: 0px 1px 0px 1px; }
+th.thRight,td.catRight,td.row3Right	 { border-width: 0px 1px 0px 0px; }
+th.thLeft,td.catLeft	  { border-width: 0px 0px 0px 1px; }
+th.thBottom,td.catBottom  { border-width: 0px 1px 1px 1px; }
+th.thTop	 { border-width: 1px 0px 0px 0px; }
+th.thCornerL { border-width: 1px 0px 0px 1px; }
+th.thCornerR { border-width: 1px 1px 0px 0px; }
+
+/* The largest text used in the index page title and toptic title etc. */
+.maintitle	{
+	font-weight: bold; font-size: 22px; font-family: "Trebuchet MS",Verdana, Arial, Helvetica, sans-serif;
+	text-decoration: none; line-height : 120%; color : #000000;
+}
+
+/* General text */
+.gen { font-size : 12px; }
+.genmed { font-size : 11px; }
+.gensmall { font-size : 10px; }
+.gen,.genmed,.gensmall { color : #000000; }
+a.gen,a.genmed,a.gensmall { color: #587EA5; text-decoration: none; }
+a.gen:hover,a.genmed:hover,a.gensmall:hover	{ color: #587EA5; text-decoration: underline; }
+
+/* Forum category titles */
+.cattitle		{ font-weight: bold; font-size: 11px ; letter-spacing: 1px; color : #587EA5}
+a.cattitle		{ text-decoration: none; color : #587EA5; }
+a.cattitle:hover{ text-decoration: underline; }
+
+/* Used for the navigation text, (Page 1,2,3 etc) and the navigation bar when in a forum */
+.nav			{ font-weight: bold; font-size: 11px; color : #000000;}
+a.nav			{ text-decoration: none; color : #587EA5; }
+a.nav:hover		{ text-decoration: underline; }
+
+/* for table in the index number */
+table.shade{ background-color: #EFF2F8; }

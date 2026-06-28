@@ -1,0 +1,42 @@
+/* Cascading Style Sheet for HTMLHelp ePublisher */
+/* ============================================= */
+
+/* Justify Text in Selected Paragraph Tags */
+P.Justify  {text-align: Justify; }
+LI.Justify {text-align: Justify; }
+
+/* Change General Links Colour & Make Bold When Mouse Passes Over */
+a:hover		{color: #800080; font-weight: bold; }
+
+/* Expandable Section HyperText Colour */
+a:sidebar	{color: #339900; } 
+
+/* Expandable Section HyperText Colour When Visited (Note: Same As Above) */
+a:visited.sidebar: {color: #339900;text-decoration: none; }
+
+/* Expandable Section HyperText Is Underlined When Mouse Passes Over */
+a:hover.sidebar:   {text-decoration: underline; }
+
+/* Popup Text HyperText Colour, Font Style & Cursor */
+a.PopupText:link {color: green; font-style: italic; cursor: help;}    /* unvisited link */
+
+/* Popup Text HyperText After Visited (Note: Same As Above) */
+a.PopupText:visited {color: green; font-style: italic; cursor: help;} /* visited link   */
+
+/* Footer HyperLink */
+a.footer:link	  {text-decoration: none;} 
+a:hover.footer:   {color: blue; text-decoration: underline;}
+a.footer:visited  {color: blue;}
+
+/* Expanded Section Params Including Background Colour & Image	*/
+/* DIV.sidebartext {						*/
+/* 		position: relative;				*/
+/* 		height: 100px;					*/
+/* 		width: 210px;					*/
+/* 		margin-left: 35px;				*/
+/* 		padding: 7px;					*/
+/* 		border-left: 4pt solid red;			*/
+/* 		cursor: hand;					*/
+/* 		background-image: url(Images\ivy.gif);		*/
+/* 		background-color: yellow; 			*/
+/* 		}						*/
