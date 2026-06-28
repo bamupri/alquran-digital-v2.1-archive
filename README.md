@@ -10,11 +10,11 @@ Aplikasi asli ini berbasis format `.CHM` (Compiled HTML Help), yang di dalamnya 
 
 ## Rencana & Konsep yang Diinginkan
 
-- **Modernisasi UI/UX**
-  Mengubah tampilan jadul aplikasi menjadi desain web yang bersih, responsif (nyaman dibuka di HP dan laptop), dan modern.
+**Modernisasi UI/UX**
+Mengubah tampilan jadul aplikasi menjadi desain web yang bersih, responsif (nyaman dibuka di HP dan laptop), dan modern.
 
-- **Mempertahankan Preservasi Data**
-  Saya ingin tetap mempertahankan struktur navigasi, susunan teks, tata letak bab/halaman asli, serta fungsionalitas indeks yang ada pada versi CHM-nya agar esensi aplikasi aslinya tidak hilang.
+**Mempertahankan Preservasi Data**
+Saya ingin tetap mempertahankan struktur navigasi, susunan teks, tata letak bab/halaman asli, serta fungsionalitas indeks yang ada pada versi CHM-nya agar esensi aplikasi aslinya tidak hilang.
 
 ## Kendala yang Saya Hadapi
 
@@ -22,8 +22,8 @@ Saya memiliki keterbatasan teknis mengenai bagaimana cara mengekstrak dan menyat
 
 ## Referensi
 
-- **Aplikasi CHM:** `menyusul`
-- **Screenshot Aplikasi CHM:** `menyusul`
+- **Aplikasi CHM:** <https://archive.org/details/al-quran-digital-v2.1>
+- **Screenshot Aplikasi CHM:** <https://imgur.com/a/L9hdopt>
 
 ## Pertanyaan
 
@@ -63,8 +63,8 @@ Due to my limited technical background, I am struggling with how to properly dec
 
 ## Reference
 
-- **CHM App:** `soon`
-- **CHM App screenshot:** `soon`
+- **CHM App:** <https://archive.org/details/al-quran-digital-v2.1>
+- **CHM App screenshot:** <https://imgur.com/a/L9hdopt>
 
 ## Request for Help
 
